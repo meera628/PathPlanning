@@ -1,0 +1,19 @@
+<launch>
+    <!-- Set the TurtleBot3 model -->
+    <env name="TURTLEBOT3_MODEL" value="burger"/>
+
+    <!-- Launch Gazebo with TurtleBot3 world -->
+    <include file="$(find turtlebot3_gazebo)/launch/turtlebot3_world.launch"/>
+
+    <!-- Launch the TurtleBot3 Navigation with the provided map -->
+    <include file="$(find turtlebot3_navigation)/launch/turtlebot3_navigation.launch">
+        <arg name="map_file" value="/home/meera/catkin_ws/src/astar_ver2/maps/map1_maze.yaml"/>
+    </include>
+
+    <!-- Launch the A* Planner node -->
+    <node pkg="astar_ver2" type="astar_planner.py" name="astar_ver2_planner" output="screen"/>
+
+
+    <!-- Run the A* Path Follower script -->
+    <node pkg="astar_ver2" type="astar_path_follower.py" name="astar_follower" output="screen"/>
+</launch>
