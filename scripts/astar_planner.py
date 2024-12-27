@@ -91,12 +91,12 @@ class AStarPlanner():
         plt.ylabel("Grid Y")
         plt.colorbar(label="Map Values")
         plt.grid(True)
-        plt.savefig("/home/meera/Pictures/astar_output1.png")
-        rospy.loginfo("Path visualization saved as 'astar_path.png'")
+        plt.savefig("/home/meera/catkin_ws/src/astar_ver2/astar_output1.png")
+        rospy.loginfo("Path visualization saved as 'astar_output1.png'")
 
         plt.imshow(self.obstacle_map, cmap='gray', origin='lower')
         plt.title("Obstacle Map")
-        plt.savefig("/home/meera/Pictures/obstacle_map.png")
+        plt.savefig("/home/meera/catkin_ws/src/astar_ver2/obstacle_map.png")
         rospy.loginfo("Obs map saved as 'obstacle_map.png'")
 
     def goal_callback(self, msg):
