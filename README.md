@@ -12,7 +12,7 @@ This project explores **improved RRT*** for **waypoint identification** in drone
 ### **1. Understanding 2D Path Planning**  
 - Analyzed **A***, **RRT***, and **PRM** algorithms for pathfinding in a **grid environment with obstacles**.  
 - Compared **efficiency, smoothness, clearance, and obstacle-handling** capabilities.  
-- 📂 **Code & report:** [**astar_planner_turtlebot3 branch**](https://github.com/yourrepo/astar_planner_turtlebot3](https://github.com/meera628/PathPlanning/tree/astar_planner_turtlebot3)  
+- 📂 **Code & report:** [**astar_planner_turtlebot3 branch**](https://github.com/meera628/PathPlanning/tree/astar_planner_turtlebot3)  
 
 ### **2. Extending A* to 3D**  
 - Implemented and tested **A*** in **3D obstacle-ridden environments**.  
