@@ -14,12 +14,12 @@ This project explores **improved RRT*** for **waypoint identification** in drone
 - Compared **efficiency, smoothness, clearance, and obstacle-handling** capabilities.  
 - 📂 **Code & report:** [**astar_planner_turtlebot3 branch**](https://github.com/meera628/PathPlanning/tree/astar_planner_turtlebot3)  
 
-### **2. Extending A* to 3D**  
+### **2. Extending A* to 3D **  
 - Implemented and tested **A*** in **3D obstacle-ridden environments**.  
 - 🎥 [**Simulation Video**](https://github.com/meera628/PathPlanning/blob/astar_3d_hector_quadrotor/drone_astar_ver1_compressed.mp4)  
 - 📂 **Code & launch files:** [**astar_3d_hector_quadrotor branch**](https://github.com/meera628/PathPlanning/tree/astar_3d_hector_quadrotor)  
 
-### **3. Extending & Improving RRT* in 3D** _(In Progress)_  
+### **3. Extending & Improving RRT* in 3D ** _(In Progress)_  
 - Implementing **RRT*** with enhancements for **faster convergence** and **better path optimality**.   
 
 ### **4. Safe Flight Corridors & Minimum Snap Trajectory** _(In Progress)_  
