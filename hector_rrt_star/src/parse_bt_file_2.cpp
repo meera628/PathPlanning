@@ -103,12 +103,12 @@ void writeGridToFile(const std::vector<std::vector<std::vector<bool>>>& grid,
 }
 
 int main() {
-    std::string file_path = "/home/meera/catkin_ws/src/hector_astar1/maps/hexagon1.bt";
+    std::string file_path = "/home/meera/catkin_ws/src/hector_rrt_star/maps/hexagon1.bt";
     double resolution;
     octomap::point3d min_bound, max_bound;
     int inflation_radius = 4; // Adjust this value based on drone size
     
     auto grid = parseOctomapToGrid(file_path, resolution, min_bound, max_bound, inflation_radius);
-    writeGridToFile(grid, "/home/meera/catkin_ws/src/hector_astar1/src/grid_output_2.txt", min_bound, max_bound, resolution);
+    writeGridToFile(grid, "/home/meera/catkin_ws/src/hector_rrt_star/src/grid_output_2.txt", min_bound, max_bound, resolution);
     return 0;
 }
