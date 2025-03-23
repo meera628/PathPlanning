@@ -1,8 +1,0 @@
-prefix=/home/meera/catkin_ws/src/safe_flight_corridors/build/devel
-
-Name: safe_flight_corridors
-Description: Description of safe_flight_corridors
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
