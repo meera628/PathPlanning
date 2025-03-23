@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/meera/catkin_ws/src/safe_flight_corridors/build/devel/setup.sh
