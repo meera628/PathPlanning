@@ -24,10 +24,10 @@ struct Node {
     Node(int x, int y, int z, double cost = 0, double heuristic = 0, Node* parent = nullptr)
         : x(x), y(y), z(z), cost(cost), heuristic(heuristic), parent(parent) {}
 
-    // F cost (not strictly needed for RRT*, but keeping for potential informed sampling)
+    // F cost 
     double getF() const { return cost + heuristic; }
 
-    // Priority queue (min-heap by F cost - not strictly needed, but can be adapted for informed RRT*)
+    // Priority queue (min-heap by F cost)
     bool operator>(const Node& other) const {
         return getF() > other.getF();
     }
