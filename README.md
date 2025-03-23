@@ -19,7 +19,7 @@ This project explores **improved RRT*** for **waypoint identification** in drone
 - 🎥 [**Simulation Video**](https://github.com/meera628/PathPlanning/blob/astar_3d_hector_quadrotor/drone_astar_ver1_compressed.mp4)  
 - 📂 **Code & launch files:** [**astar_3d_hector_quadrotor branch**](https://github.com/meera628/PathPlanning/tree/astar_3d_hector_quadrotor)  
 
-### 3. Extending & Improving RRT* in 3D _(In Progress)_  
+### 3. Extending & Improving RRT* in 3D 
 - Implemented **Bidirectional RRT** with enhancements for **faster convergence** and **better path optimality**.
 - 📂 **Package:** [**rrt_star_3d_quadrotor**](https://github.com/meera628/PathPlanning/tree/rrt_star_3d_quadrotor)
 - 📂 [**RRT Star Bidirectional**](https://github.com/meera628/PathPlanning/blob/rrt_star_3d_quadrotor/hector_rrt_star/src/rrt_star_bidirectional.cpp)
